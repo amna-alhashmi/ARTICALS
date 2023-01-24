@@ -7,14 +7,16 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class Articals {
-	Response response;
+	Results results;
 
-	public Response getResponse() {
-		return response;
+	public Results getResults() {
+		return results;
 	}
 
-	public void setResponse(Response response) {
-		this.response = response;
+	public void setResults(Results results) {
+		this.results = results;
 	}
+
+	
 
 }

@@ -4,15 +4,17 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class Sections {
-	Results results;
+	Response response;
 
-	public Results getResults() {
-		return results;
+	public Response getResponse() {
+		return response;
 	}
 
-	public void setResults(Results results) {
-		this.results = results;
+	public void setResponse(Response response) {
+		this.response = response;
 	}
+
+
 
 	
 //	class response
